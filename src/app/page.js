@@ -15,6 +15,7 @@ export default function Home() {
     });
     setSuccess(true);
     setForm({ name: "", email: "", message: "" });
+    setTimeout(()=> setSuccess(false), 3000);
   }
 
   return (
